@@ -1,0 +1,16 @@
+﻿<Window x:Class="D2h_Operator_System.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:D2h_Operator_System"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBox TextWrapping="Wrap" Text="Enter Username" Margin="260,44,327,363" RenderTransformOrigin="2.442,0.912" TextChanged="Enter Username"/>
+        <TextBox HorizontalAlignment="Left" Margin="260,84,0,0" TextWrapping="Wrap" Text="Enter Password" VerticalAlignment="Top" Width="213" Height="29"/>
+        <Button x:Name="Sign_In" Content="Sign In" HorizontalAlignment="Left" Margin="260,127,0,0" VerticalAlignment="Top" Width="99" Height="39"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="379,127,0,0" VerticalAlignment="Top" Height="39" Width="94"/>
+
+    </Grid>
+</Window>

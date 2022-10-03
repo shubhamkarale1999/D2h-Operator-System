@@ -1,0 +1,40 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:D2h_Operator_System"
+        x:Class="D2h_Operator_System.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+
+    <!--<TextBox Width="200" Height="40" Canvas.Top="50" Canvas.Left="20">
+        Enter Password here
+    </TextBox>
+
+    <TextBlock>
+    <Run Text="{Binding Path=Text, ElementName=txt1}"/>
+    <Run Text="{Binding Path=Text, ElementName=txt2}"/>
+    </TextBlock>-->
+
+    <!--<TextBox>
+        <TextBox.Text>
+            <MultiBinding StringFormat="{}{0}{1}">
+                <Binding Path="Text" ElementName="txt1" />
+                <Binding Path="Text" ElementName="txt2" />
+            </MultiBinding>
+        </TextBox.Text>
+    </TextBox>-->
+    <Grid>
+
+
+
+        <TextBox Name="number1" TextWrapping="Wrap" Margin="114,70,566,313" />
+        <TextBox Name="Tables" TextWrapping="Wrap" Margin="114,148,400,237" TextChanged="Tables_TextChanged" Text="Table Of Given Number :-"/>
+        <Button Content="Click" Margin="273,70,400,313" Click="tableprinting"/>
+
+    </Grid>
+
+
+</Window>
